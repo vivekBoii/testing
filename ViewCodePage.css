@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+.viewCode__container {
+	font-family: "Inter", sans-serif;
+	font-size: 0.9em;
+}
+
+.viewCode__container .mainNav {
+	padding: 0.4em 0em;
+}
+
+.viewCode__container .mainNav h3 {
+	font-size: 1em;
+}
+
+.viewCode.mainContent {
+	padding: 0.4em;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	text-align: left;
+}
+
+.viewCode__featuresBox {
+	background-color: #f8fafc;
+	border-radius: 0.4em;
+	padding: 0.8em;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	font-size: 0.9em;
+}
+
+.viewCode__featuresBox h3 {
+	font-weight: 400;
+	font-size: 1.1em;
+}
+
+.viewCode__featuresBox h3 span {
+	font-weight: 600;
+}
+
+.viewCode__line {
+	border-top: 1px solid lightgray;
+	width: 100%;
+}
+
+.viewCode__featuresBox ul {
+	/* border-top: 1px solid lightgray; */
+	margin: 0.3em;
+}
+
+.viewCode__featuresBox ul,
+.viewCode__frame p,
+.viewCode__note {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.viewCode__featuresBox ul {
+}
+
+.viewCode__featuresBox ul p {
+	margin-bottom: 0.4em;
+}
+
+.viewCode__featuresBox ul li {
+	padding: 0.2em 0.4em;
+	padding-left: 1em;
+	font-size: 0.88em;
+}
+
+.viewCode form {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.viewCode form .input__group {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	text-align: left;
+	padding: 0 0.4em;
+}
+
+.viewCode form .input__group input {
+	padding: 0.2em 1em;
+	text-align: left;
+	background-color: #d9d9d920;
+}
+
+.viewCode label {
+	font-weight: 600;
+}
+
+p.bold {
+	font-weight: 600;
+}
+
+/* Frame */
+
+.viewCode__framesList {
+	display: flex;
+	width: 100%;
+	gap: 1em;
+}
+
+.viewCode__frame {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 0.4em;
+	padding: 0.8em 1.2em;
+	cursor: pointer;
+	user-select: none;
+	border: 1px solid lightgray;
+	border-radius: 4px;
+	width: 100%;
+}
+
+.viewCode__frame:hover {
+	border: 1px solid orange;
+}
+
+.viewCode__frame img {
+	height: 60px;
+}
+
+/* Framework container */
+.viewCode__frameworkContainer {
+	border-radius: 4px;
+	background-color: #d9d9d931;
+	padding: 0.4em 1.2em;
+}
+
+.viewCode__frameworkContainer p {
+	color: rgba(0, 0, 0, 0.6);
+}

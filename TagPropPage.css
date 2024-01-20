@@ -1,0 +1,127 @@
+.tagPropContainer {
+	width: 100%;
+}
+
+.tagPropContainer h3 {
+	font-weight: 600;
+	margin: 0.6em 0em;
+}
+
+.tagPropContainer h4,
+.tagPropContainer h4 {
+	margin: 0.2em;
+}
+
+.mainnav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid lightgray;
+}
+
+.navleft2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	gap: 44%;
+}
+
+.link1 {
+	padding: 5px;
+	border: none;
+	background-color: transparent;
+	color: black;
+}
+
+.link1:hover {
+	background-color: rgb(227, 226, 226);
+	color: black;
+}
+
+.navLeft {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	gap: 20%;
+}
+
+.navLeft h3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.2em;
+}
+
+.navLeft svg {
+	color: var(--primary-theme-color);
+}
+
+.navLeft svg:hover {
+	color: var(--active-primary-theme-color);
+}
+
+.tagNavActions button {
+	padding: 0.4em;
+}
+
+.tabBar {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	font-size: 0.84em;
+	border-bottom: 1px solid lightgray;
+}
+
+.tabBar>div {
+	flex-basis: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.6em;
+	color: gray;
+	padding: 1em 0;
+}
+
+.tabBar>div>svg {
+	color: #d9d9d9;
+}
+
+.tabselect {
+	user-select: none;
+	border-bottom: 2px solid transparent;
+}
+
+.tabselect.selected {
+	background-color: #f8fafc;
+	color: var(--primary-theme-color);
+	border-bottom: 2px solid var(--primary-theme-color);
+}
+
+.tabImg {
+	width: 24px;
+	height: 24px;
+}
+
+.tabselect {
+	cursor: pointer;
+}
+
+/* Tab content */
+
+.tabContent {
+	padding: 0.2em 0.4em;
+}
+
+.tabContent .collapseHeader {
+	background-color: #f8fafc;
+	padding: 0 1em;
+}
+
+.tabContent h5 {
+	margin: 0.4em;
+}
+
+/* Properties tab content */

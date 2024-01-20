@@ -1,0 +1,27 @@
+
+export enum ManualTags {
+  Text = "Text",
+  Link = "Link",
+  Image = "Image",
+  Button = "Button",
+  Form = "Form",
+  Label = "Label",
+  Textarea = "Textarea",
+  Input = "Input",
+  "Check box" = "Check box",
+  Radio = "Radio",
+  File = "File",
+  Select = "Select",
+  Container = "Container",
+  Video = "Video",
+  Audio = "Audio",
+  Lottie = "Lottie",
+  Youtube = "Youtube",
+  iFrame = "iFrame",
+  Gif = "Gif",
+  "Google Maps" = "Google Maps",
+  "Drop Down" = "Drop Down",
+  Accordion = "Accordion",
+  Slider = "Slider",
+  Switch = "Switch"
+}

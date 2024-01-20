@@ -1,0 +1,59 @@
+.actionsTab {
+	text-align: left;
+}
+
+.actionsTab textarea {
+	background-color: #d9d9d92a;
+}
+
+.actionsList {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 0.4em;
+	margin: 0.2em 0;
+	margin-bottom: 1em;
+}
+
+.actionsList .selected {
+	background-color: #ededed;
+}
+
+.actionsTab h6 {
+	margin: 0.4em 0em;
+	font-size: 1em;
+}
+
+.actionCard {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid gray;
+	cursor: pointer;
+	gap: 0.2em;
+	padding: 0.6em 0.4em;
+	border-radius: 0.2em;
+}
+
+.actionCard:hover {
+	border-color: black;
+	background-color: #fdfdfd;
+}
+
+.actionCard p {
+	font-size: 0.9em;
+}
+
+.actionCard .actioncard:hover {
+	background-color: #a9a9a9d6;
+}
+
+.actionCard.selected {
+	background-color: #ddcbae86;
+}
+
+.actionIcon {
+	width: 24px;
+	height: 24px;
+}

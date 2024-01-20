@@ -1,0 +1,43 @@
+.tag {
+	width: 100%;
+	display: flex;
+	gap: 0.3em;
+	align-items: center;
+	font-size: 0.8em;
+	padding-right: 4px;
+	cursor: pointer;
+	max-width: 112px;
+	cursor: pointer;
+}
+
+.tag.selected {
+	background: #def7ff33;
+	font-weight: 600;
+	border: 1px solid lightblue;
+	border-radius: 4px;
+}
+
+.tag:hover {
+	box-shadow: 0px 0px 0px 1px lightgray;
+}
+
+.tag .iconBox {
+	width: 46px;
+	height: 46px;
+}
+
+.tag .iconBox img{
+	width: auto;
+}
+
+.tag p {
+	color: rgba(0, 0, 0, 0.6);
+	/* word-break: break-all; */
+}
+
+.iconBox {
+	background-color: #f4f4f4;
+	border-radius: 4px;
+	padding: 1em;
+	display: flex;
+}

@@ -1,0 +1,81 @@
+.projectContainer {
+	display: flex;
+	flex-direction: column;
+	padding: 0.4em;
+	gap: 0.4em;
+}
+
+.projectContainer h5 {
+	opacity: 0.4;
+	margin: 0.6em 0em;
+}
+
+.configContainer {
+	margin-top: 1em;
+	padding-left: 0.2em;
+}
+
+.configContainer p {
+	opacity: 0.6;
+	padding: 0.4em 0;
+}
+
+.configContainer>div {
+	margin-top: 0.4em;
+}
+
+.configContainer>div>ul {
+	margin-left: 0.2em;
+}
+
+.mainOptions {
+	display: flex;
+	gap: 1em;
+	justify-content: center;
+}
+
+.mainOptions select,
+.mainOptions input {
+	background-color: #d9d9d952;
+	border-radius: 4px;
+	accent-color: var(--primary-theme-color);
+	text-align: left;
+	padding-left: 0.8em;
+}
+
+.mainOptions option {
+	background-color: white;
+	padding: 0.4em;
+}
+
+.configContainer {
+	text-align: left;
+	padding: 0 0.6em;
+}
+
+.configContainer ul {
+	padding: 0;
+	margin: 0;
+}
+
+.configContainer label {
+	margin-left: 1.6em;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.configContainer li {
+	list-style-type: none;
+	padding: 0.4em 0em;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	user-select: none;
+}
+
+.settingsActions {
+	font-weight: 500;
+	display: flex;
+	justify-content: center;
+	gap: 2em;
+}

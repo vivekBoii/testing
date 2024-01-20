@@ -1,0 +1,187 @@
+.propertiesTab {
+	text-align: left;
+}
+
+.propertiesTab .collapsible {
+	margin-bottom: 0.2em;
+}
+
+.propertiesTab select {
+	background: 1px solid var(--color-bg);
+	border: 1px solid var(--color-border);
+	color: 1px solid var(--color-text);
+	padding: 0.5rem;
+	border-radius: 4px;
+}
+
+.propertiesTab select,
+.propertiesTab input[type='text'] {
+	width: 100%;
+	background-color: #d9d9d92f;
+	text-align: left;
+	padding: 0.3em 0;
+	padding-left: 1em;
+	border: none;
+}
+
+.propertiesTab .collapseHeader {
+	padding: 0 0.2em;
+}
+
+.propertiesTab .collapsible {
+	padding: 0 0.4em;
+}
+
+.propertiesTab .collapseHeader h5 {
+	margin-left: 0.2em;
+}
+
+.propertiesTab .properties h5 {
+	margin: 0.6em 0;
+}
+
+.propertiesTab .properties {
+	display: flex;
+	flex-direction: column;
+	gap: 0.8em;
+}
+
+.propertiesTab button.link {
+	display: flex;
+	align-items: center;
+	padding: 0.4em;
+	padding-left: 0;
+	font-weight: 500;
+}
+
+.propertiesTab > button {
+	margin: 0.6em;
+}
+.attributes {
+	/* padding: 0 0.4em; */
+}
+
+.propertiesList {
+	display: flex;
+	flex-direction: column;
+}
+
+.propertiesHeader {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.propertiesList__property {
+	display: flex;
+	gap: 1em;
+}
+
+.attributes > div {
+	margin: 1em 0;
+}
+
+.attributes > div > h6 {
+	margin: 0.4em 0.2em;
+}
+
+.checkoptions {
+	display: flex;
+	gap: 1em;
+	align-items: center;
+}
+
+.checkoptions label {
+	opacity: 0.8;
+}
+
+.linkTypes {
+	display: flex;
+	justify-content: space-between;
+	gap: 0.4em;
+	padding: 0.4em 0;
+}
+
+.linkTypes li {
+	display: flex;
+	align-items: center;
+	gap: 0.4em;
+}
+
+/* Properties from NoTag */
+
+.attributes .tagsList {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 0.4em;
+	font-size: 0.8em;
+}
+
+.tagBox {
+	text-align: center;
+	padding: 0.4em 1em;
+	background-color: #fa782f14;
+	border-radius: 8px;
+	cursor: pointer;
+	border: 1px solid transparent;
+}
+
+.tagBox p {
+	opacity: 0.8;
+}
+
+.tagBox:hover,
+.tagBox.selected {
+	background-color: #fa782f29;
+}
+
+.tagBox.selected {
+	border: 1px solid lightgray;
+}
+
+/* General */
+
+.advProperty label {
+	display: inline-block;
+	font-weight: 600;
+	margin: 0.6em 0;
+}
+
+/* Label */
+
+.propertiesTab.label .advProperty {
+	gap: 0.8em;
+}
+
+.propertiesTab.label .properties > div {
+	/* padding: 0.5em 0; */
+}
+
+.propertiesTab.label button.link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.2em;
+}
+
+/* checks */
+
+.checks {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: space-between;
+	gap: 0.4em;
+}
+
+.check {
+	display: flex;
+	align-items: center;
+	gap: 0.4em;
+}
+
+/* video */
+
+/* Popup */
+.popupProps .fill {
+	justify-content: flex-start;
+	gap: 1em;
+}

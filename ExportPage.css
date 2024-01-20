@@ -1,0 +1,189 @@
+.export {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1em;
+	height: 100%;
+	padding: 0.6em;
+}
+
+
+
+.exportHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 0.2em;
+	position: relative;
+}
+
+.export>* {
+	width: 100%;
+}
+
+.exportMain {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	padding: 0em 0.2em;
+}
+
+.export input {
+	width: 100%;
+	background-color: #f9f9f9;
+	text-align: left;
+	font-size: 0.9em;
+	padding-left: 1em;
+}
+
+.export h5,
+.export h6 {
+	margin: 0.2em 0;
+}
+
+.option {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Menu */
+
+.menu ul li {
+	padding: 0.2em 0.8em;
+	list-style-type: none;
+	/* padding-left: 0.2em; */
+	opacity: 0.6;
+	font-size: 0.9em;
+}
+
+.menu {
+	position: absolute;
+	top: 30px;
+	right: 5px;
+	background-color: white;
+	padding: 0.4em 0.6em;
+	border-radius: 4px;
+	box-shadow: 0px 0px 2px 0px lightgrey;
+	z-index: 2;
+}
+
+.menu ul li:hover {
+	/* border-bottom: 1px solid lightgray; */
+	background-color: #efefef;
+	/* padding: 0.2em; */
+	border-radius: 4px;
+}
+
+.menu a {
+	color: black;
+	text-decoration: none;
+	/* padding: 1em; */
+	/* margin: 0.2em; */
+	width: 100%;
+}
+
+/* Toggler */
+
+.react-toggle:hover .react-toggle-thumb,
+.react-toggle:focus .react-toggle-thumb,
+.react-toggle--focus .react-toggle-thumb {
+	box-shadow: none;
+	border-width: 1px;
+}
+
+.react-toggle--focus .react-toggle-track,
+.react-toggle:hover .react-toggle-track,
+.react-toggle:active .react-toggle-track {
+	background-color: black;
+}
+
+.react-toggle:active {
+	box-shadow: none;
+}
+
+.react-toggle-track {
+	width: 40px;
+	height: 20px;
+}
+
+.react-toggle--checked .react-toggle-track {
+	background-color: black;
+}
+
+.react-toggle--checked:hover .react-toggle-track {
+	background-color: #444444;
+}
+
+.react-toggle-thumb {
+	width: 18px;
+	height: 18px;
+}
+
+.react-toggle--checked .react-toggle-thumb {
+	left: 20px;
+	border-color: #000000;
+}
+
+/* Tags */
+
+.manualtags {
+	margin-top: 0.6em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	gap: 0.4em;
+}
+
+.manualtags>* {
+	width: 100%;
+}
+
+.manualtags h6 {
+	font-weight: 500;
+	font-size: 0.8em;
+	padding: 0.4em 0;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.tagslist {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 0.4em;
+	padding: 0.1em;
+}
+
+/* Pre built */
+
+.dragdrop {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1em 0.4em;
+	padding-top: 2em;
+	padding: minmax(2em, 30%);
+}
+
+.frameIllust {
+	width: 100px;
+}
+
+.exportActions {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 2em;
+	font-weight: 500;
+	padding-bottom: 1em;
+}
+
+@media screen and (max-width:300px) {
+	.exportbutton {
+		font-size: 14px;
+	}
+}

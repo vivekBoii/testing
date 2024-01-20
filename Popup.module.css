@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Work+Sans:wght@400;500&display=swap");
+
+.popup__container h2 {
+	font-family: "Poppins";
+}
+
+.popup__container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(128, 128, 128, 0.6);
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.popup__container img {
+	width: auto;
+}
+
+.popup__content p {
+	color: #000;
+	text-align: center;
+	line-height: 134%;
+}
+
+.popup {
+	margin: 1em;
+	background-color: white;
+	border-radius: 1em;
+	box-shadow: 0px 0px 10px 0px lightgray;
+	max-width: 270px;
+}
+
+.popup__header {
+	text-align: left;
+}
+
+.popup__content {
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2em;
+	margin-bottom: 5%;
+}
+
+.popup__top {
+	display: flex;
+	gap: 1em;
+	align-items: center;
+	justify-content: center;
+}
+
+.popup__content button {
+	font-weight: 500;
+	cursor: pointer;
+	border: none;
+	font: inherit;
+	padding: 0.6em 2em;
+	background-color: #333333;
+	color: white;
+	border-radius: 8px;
+}
+
+/* Error */
+
+.popup__container.error h2 {
+	color: #ff3131;
+}
+
+.error .popup__content button {
+	background-color: #ff3131;
+}
+
+.error .popup__content button:hover,
+.error .popup__content button:hover:focus {
+	background-color: #e02c2c;
+}
+
+/* Success */
+
+.popup__container.success h2 {
+	color: #0acf83;
+}
+
+.success .popup__content button {
+	background-color: #0acf83;
+}
+
+.success .popup__content button:hover,
+.success .popup__content button:hover:focus {
+	background-color: #09b171;
+}
