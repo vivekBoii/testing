@@ -1,0 +1,228 @@
+
+ERROR in ../node_modules/buffer-equal-constant-time/index.js 3:13-37
+Module not found: Error: Can't resolve 'buffer' in 'D:\bibucket\node_modules\buffer-equal-constant-time'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "buffer": require.resolve("buffer/") }'
+        - install 'buffer'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "buffer": false }
+ @ ../node_modules/jwa/index.js 1:18-55
+ @ ../node_modules/jws/lib/verify-stream.js 4:10-24
+ @ ../node_modules/jws/index.js 3:19-49
+ @ ../node_modules/jsonwebtoken/decode.js 1:10-24
+ @ ../node_modules/jsonwebtoken/index.js 2:10-29
+ @ ./src/ui/pages/Connect/index.tsx 17:0-31 28:37-47
+ @ ./src/ui/ui.tsx 7:0-42 40:77-88
+
+ERROR in ../node_modules/jsonwebtoken/sign.js 12:57-74
+Module not found: Error: Can't resolve 'crypto' in 'D:\bibucket\node_modules\jsonwebtoken'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+        - install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "crypto": false }
+ @ ../node_modules/jsonwebtoken/index.js 4:8-25
+ @ ./src/ui/pages/Connect/index.tsx 17:0-31 28:37-47
+ @ ./src/ui/ui.tsx 7:0-42 40:77-88
+
+ERROR in ../node_modules/jsonwebtoken/verify.js 9:54-71
+Module not found: Error: Can't resolve 'crypto' in 'D:\bibucket\node_modules\jsonwebtoken'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+        - install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "crypto": false }
+ @ ../node_modules/jsonwebtoken/index.js 3:10-29
+ @ ./src/ui/pages/Connect/index.tsx 17:0-31 28:37-47
+ @ ./src/ui/ui.tsx 7:0-42 40:77-88
+
+ERROR in ../node_modules/jwa/index.js 3:13-30
+Module not found: Error: Can't resolve 'crypto' in 'D:\bibucket\node_modules\jwa'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+        - install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "crypto": false }
+ @ ../node_modules/jws/lib/verify-stream.js 4:10-24
+ @ ../node_modules/jws/index.js 3:19-49
+ @ ../node_modules/jsonwebtoken/decode.js 1:10-24
+ @ ../node_modules/jsonwebtoken/index.js 2:10-29
+ @ ./src/ui/pages/Connect/index.tsx 17:0-31 28:37-47
+ @ ./src/ui/ui.tsx 7:0-42 40:77-88
+
+ERROR in ../node_modules/jwa/index.js 5:11-26
+Module not found: Error: Can't resolve 'util' in 'D:\bibucket\node_modules\jwa'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'
+        - install 'util'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "util": false }
+ @ ../node_modules/jws/lib/verify-stream.js 4:10-24
+ @ ../node_modules/jws/index.js 3:19-49
+ @ ../node_modules/jsonwebtoken/decode.js 1:10-24
+ @ ../node_modules/jsonwebtoken/index.js 2:10-29
+ @ ./src/ui/pages/Connect/index.tsx 17:0-31 28:37-47
+ @ ./src/ui/ui.tsx 7:0-42 40:77-88
+
+ERROR in ../node_modules/jws/lib/data-stream.js 3:13-30
+Module not found: Error: Can't resolve 'stream' in 'D:\bibucket\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ../node_modules/jws/lib/verify-stream.js 3:17-41
+ @ ../node_modules/jws/index.js 3:19-49
+ @ ../node_modules/jsonwebtoken/decode.js 1:10-24
+ @ ../node_modules/jsonwebtoken/index.js 2:10-29
+ @ ./src/ui/pages/Connect/index.tsx 17:0-31 28:37-47
+ @ ./src/ui/ui.tsx 7:0-42 40:77-88
+
+ERROR in ../node_modules/jws/lib/data-stream.js 4:11-26
+Module not found: Error: Can't resolve 'util' in 'D:\bibucket\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'
+        - install 'util'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "util": false }
+ @ ../node_modules/jws/lib/verify-stream.js 3:17-41
+ @ ../node_modules/jws/index.js 3:19-49
+ @ ../node_modules/jsonwebtoken/decode.js 1:10-24
+ @ ../node_modules/jsonwebtoken/index.js 2:10-29
+ @ ./src/ui/pages/Connect/index.tsx 17:0-31 28:37-47
+ @ ./src/ui/ui.tsx 7:0-42 40:77-88
+
+ERROR in ../node_modules/jws/lib/sign-stream.js 5:13-30
+Module not found: Error: Can't resolve 'stream' in 'D:\bibucket\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ../node_modules/jws/index.js 2:17-45
+ @ ../node_modules/jsonwebtoken/decode.js 1:10-24
+ @ ../node_modules/jsonwebtoken/index.js 2:10-29
+ @ ./src/ui/pages/Connect/index.tsx 17:0-31 28:37-47
+ @ ./src/ui/ui.tsx 7:0-42 40:77-88
+
+ERROR in ../node_modules/jws/lib/sign-stream.js 7:11-26
+Module not found: Error: Can't resolve 'util' in 'D:\bibucket\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'
+        - install 'util'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "util": false }
+ @ ../node_modules/jws/index.js 2:17-45
+ @ ../node_modules/jsonwebtoken/decode.js 1:10-24
+ @ ../node_modules/jsonwebtoken/index.js 2:10-29
+ @ ./src/ui/pages/Connect/index.tsx 17:0-31 28:37-47
+ @ ./src/ui/ui.tsx 7:0-42 40:77-88
+
+ERROR in ../node_modules/jws/lib/tostring.js 2:13-37
+Module not found: Error: Can't resolve 'buffer' in 'D:\bibucket\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "buffer": require.resolve("buffer/") }'
+        - install 'buffer'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "buffer": false }
+ @ ../node_modules/jws/lib/verify-stream.js 6:15-36
+ @ ../node_modules/jws/index.js 3:19-49
+ @ ../node_modules/jsonwebtoken/decode.js 1:10-24
+ @ ../node_modules/jsonwebtoken/index.js 2:10-29
+ @ ./src/ui/pages/Connect/index.tsx 17:0-31 28:37-47
+ @ ./src/ui/ui.tsx 7:0-42 40:77-88
+
+ERROR in ../node_modules/jws/lib/verify-stream.js 5:13-30
+Module not found: Error: Can't resolve 'stream' in 'D:\bibucket\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ../node_modules/jws/index.js 3:19-49
+ @ ../node_modules/jsonwebtoken/decode.js 1:10-24
+ @ ../node_modules/jsonwebtoken/index.js 2:10-29
+ @ ./src/ui/pages/Connect/index.tsx 17:0-31 28:37-47
+ @ ./src/ui/ui.tsx 7:0-42 40:77-88
+
+ERROR in ../node_modules/jws/lib/verify-stream.js 7:11-26
+Module not found: Error: Can't resolve 'util' in 'D:\bibucket\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'
+        - install 'util'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "util": false }
+ @ ../node_modules/jws/index.js 3:19-49
+ @ ../node_modules/jsonwebtoken/decode.js 1:10-24
+ @ ../node_modules/jsonwebtoken/index.js 2:10-29
+ @ ./src/ui/pages/Connect/index.tsx 17:0-31 28:37-47
+ @ ./src/ui/ui.tsx 7:0-42 40:77-88
+
+ERROR in ../node_modules/safe-buffer/index.js 3:13-30
+Module not found: Error: Can't resolve 'buffer' in 'D:\bibucket\node_modules\safe-buffer'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "buffer": require.resolve("buffer/") }'
+        - install 'buffer'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "buffer": false }
+ @ ../node_modules/jws/lib/verify-stream.js 2:13-42
+ @ ../node_modules/jws/index.js 3:19-49
+ @ ../node_modules/jsonwebtoken/decode.js 1:10-24
+ @ ../node_modules/jsonwebtoken/index.js 2:10-29
+ @ ./src/ui/pages/Connect/index.tsx 17:0-31 28:37-47
+ @ ./src/ui/ui.tsx 7:0-42 40:77-88
+
+13 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
