@@ -1,0 +1,38 @@
+{
+	"manualTags": [
+		"Text",
+		"Link",
+		"Image",
+		"Button",
+		"Form",
+		"Label",
+		"Textarea",
+		"Input",
+		"Check box",
+		"Radio",
+		"File",
+		"Select",
+		"Container",
+		"Video",
+		"Audio",
+		"Lottie",
+		"Youtube",
+		"iFrame",
+		"Gif",
+		"Google Maps",
+		"Drop Down",
+		"Accordion",
+		"Slider",
+		"Switch"
+	],
+	"frameworkSettings": {
+		"react": {
+			"lang": [
+				{ "name": "JavaScript", "id": "js" },
+				{ "name": "TypeScript", "id": "ts" }
+			]
+		},
+		"htmlcss": {},
+		"nextjs": {}
+	}
+}
